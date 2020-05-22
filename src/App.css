@@ -1,0 +1,41 @@
+* {
+  font-family: 'Josefin Slab', serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.centerAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullSize {
+  height: 100%;
+  width: 100%;
+}
+
+.presentation {
+  cursor: auto;
+}
+
+#videoPlayer {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+span > svg {
+  mix-blend-mode: difference;
+}
